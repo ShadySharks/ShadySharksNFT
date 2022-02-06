@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0x9aaf7CfC23d58de310E376440642E3063cCb5051",
+  "SCAN_LINK": "https://polygonscan.com/token/0x9aaf7CfC23d58de310E376440642E3063cCb5051",
+  "NETWORK": {
+    "NAME": "Polygon",
+    "SYMBOL": "MATIC",
+    "ID": 137
+  },
+  "NFT_NAME": "Shady Sharks",
+  "SYMBOL": "SS",
+  "MAX_SUPPLY": 10000,
+  "WEI_COST": 50000000000000000000,
+  "DISPLAY_COST": 50,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/shadysharks-1",
+  "SHOW_BACKGROUND": true
+}
