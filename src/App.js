@@ -304,6 +304,7 @@ function App() {
                     >
                       Discord
                     </StyledButton>
+                    
                     {blockchain.errorMsg !== "" ? (
                       <>
                         <s.SpacerSmall />
@@ -396,6 +397,7 @@ function App() {
               color: "var(--primary-text)",
             }}
           >
+            
             Please make sure you are connected to the right network (
             {CONFIG.NETWORK.NAME} Mainnet) and the correct address. Please note:
             Once you make the purchase, you cannot undo this action.
@@ -411,6 +413,9 @@ function App() {
             successfully mint your NFT. We recommend that you don't lower the
             gas limit.
           </s.TextDescription>
+          <a href="https://nftcalendar.io/event/shady-shark-nft/">
+            <StyledLogo alt={"logo"} src={"/config/images/NftCalendar.png"} align={"center"} width="10" />
+          </a>
         </s.Container>
       </s.Container>
     </s.Screen>
